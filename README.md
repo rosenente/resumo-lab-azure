@@ -38,4 +38,68 @@ A arquitetura do Azure também inclui serviços avançados de identidade e geren
 
 Esses serviços e soluções formam a base da oferta do Azure, proporcionando uma plataforma flexível, segura e escalável para diferentes tipos de aplicações e cenários empresariais.
 
+---------------------------
+Gerenciamento de custos
+
+	- Calculadora de custos e preços
+	- Gerenciamento de custos e marcas
+	
+É a descrição de faties que podem afetar os custos no Azure. É possível comparar e descrever a ferramenta de gerenciamento de custo
+do Azure. Também descreve a finalidade das marcas. O maior problema da nuvem atualmente é o custo elevado de implementação, então é importante saber previamente a real necessidade de implementação dos recursos em nuvem. Algum dos fatores que afetam os custos são:
+	
+	1. Tipo de recurso
+		Custos são específicos do recurso, portando, o uso que um medidor rastreia e o numero de medidores associados a um
+		recurso, dependendo do tipo de recurso.
+	2. Consumo
+		Com um modelo pago conforme o uso, o consumo é um dos maiores geradores de custos.
+	3. Manutenção
+		Monitorar seu volume do Azure e manter seu ambiente pode ajuda-lo a identificar a reduzir os custos que não 
+		são necessários, como ao desligar máquinas virtuais.
+	4. Áreas geográficas
+		O mesmo tipo de recurso pode custar valores dependendo da área geográfica o que afeta os custos do Azure.
+	5. Tráfego de rede
+		Embora algumas transferências de dados de entrada sejam gratuitas, o custo para dados de saída ou dados entre
+		recursos do Azure é afetados por zonas de cobrança.
+	6. Assinatura
+		O tipo e a configuração da assinatura também podem afetar o custo. Por exemplo, a avaliação gratuita permite 
+		explorar alguns recursos do Azure gratuitamente.
+
+O Azure Marketplace permite que os clientes encontrem, experiementem, comprem e provisionem aplicativos e serviços de centenas de 
+provedores de serviços líderes, que são todos certificados para execução no Azure. Caso seja instalado um recurso não Microsoft, 
+a Microsoft não irá prover suporte, do qual o suporte deverá ser cobrado da empresa fabricante do software. 
+
+
+Calculadora de preços do Azure
+
+	Quando você precisa de uma simulação de um projeto para prever o custo de um recurso no Azure, o local indicado é a 
+	calculadora de preços do Azure. É uma ferramenta que ajuda a estumar o custo dos produtos do Azure. As opções que você pode
+	configurar na calculadora de preços entre os produtos, mas as opções básicas de configurações.
+		* Região
+		* Camada
+		* Opção de cobranças
+		* Opções de Suporte
+		* Programas e ofertas
+		* Preço de desenvolvimento/Teste do Azure.
+	1. Calculadora de custo total de propriedade (TCO)
+		* Uma ferramenta para estimar a economia de custos possível ao migrar para o Azure.
+		* Um relatório compara os custos das infraestruturas locais com os custos de uso de produtos e serviços do Azure for 		
+		Cloud
+		* Geração de custos e cobranças.
+		* Enriquecimento de dados.
+		* Definição de orçamentos de gastos.
+		* Alertas: Quando o custo excede os limites.
+		* Recomendação: Recomendações de custo.
+		
+Marcas (tags)
+
+	As marcas são elementos muito impostantes mas que não são obrigatórias e nem herdáveis para subconjuntos. Fornecem metadados 
+	aos recursos do Azure. Organizam os recursos em uma taxonomia de maneira lógica. Consistem em um par nome-valor. Elas são 
+	úteis par reunir informações de cobrança.
+	
+
+Laboratório de Custos
+	
+	Calculadora TCO
+		* https://azure.microsoft.com/en-us/pricing/tco/calculator/
+
     
