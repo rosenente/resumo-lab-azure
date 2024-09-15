@@ -102,4 +102,33 @@ Laboratório de Custos
 	Calculadora TCO
 		* https://azure.microsoft.com/en-us/pricing/tco/calculator/
 
-    
+
+Governaça e Conformidade
+
+	Governança e conformidade
+		- Blueprints, politicas e bloqueios de recursos
+		- Portal de confiança do serviço
+		
+	Azure Policy
+		O Azure Polyce ajuda a impor padrões organizacionais e a avaliar a conformidade em escala. Ele fornece governança e 
+		consistência de recursos com conformidade regulatória, segurança, custo e gerenciamento. Com ele, é possível aplicar
+		a regra independente de quem queira realizar a criação de um recurso, sendo owner ou não.
+		
+		- Avalia e identifica os recursos do azure que não atendam as suas politicas
+		- Fornecem definições de politicas e iniciativas integradas, em categorias como armazenamento, rede, computação, 
+		central de segurança e monitoramento.
+		
+	Bloqueios de recurso
+		- Proteja os recursos do Azure de exclusão ou modificação acidental;
+		- Gerenciar bloqueios na assinatura, grupos de recursos ou níveis de recursos individuais do portal do Azure.
+	
+	Portal de confiança do serviço
+		Onde poderá ser possível encontrar todas as informações quanto a regras e leis de empresas de governos. Nada mais é 
+		que um link onde poderá ser consultado vários cenários de auditorias de empresas na área de Cloud.
+		
+	Microsoft Purview
+		Aplicação que é da família de soluções de governança, risco e conformidade de dados que ajuda a obter uma única 
+		exibição unificada em seus dados. Reúne insights sobre seus dados locais, multinuvens e de software como serviço. 
+			- Descoberta de dados automatizada
+			- Classificação de dados confidenciais
+			- Linhagem de dados de ponta a ponta
