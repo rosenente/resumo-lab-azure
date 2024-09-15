@@ -132,3 +132,6 @@ Governaça e Conformidade
 			- Descoberta de dados automatizada
 			- Classificação de dados confidenciais
 			- Linhagem de dados de ponta a ponta
+
+Pagina para verificação de regras e documentação regulamentatória
+	https://servicetrust.microsoft.com/
