@@ -153,3 +153,25 @@ Ferramentas de implementação de recursos
 				
 		BICEP
 			Modelo de linguagem que podemos automatizar os processos dentro do ARC. É compatível apenas com o ambiente de nuvem apenas para o Azure, sendo uma linguagem mais amigável para a linguagem humana e também mais fácil assimilação para iniciantes.
+
+Ferramamentas de monitoramento
+
+	- Descrever a finalidade
+	- Descrever a integridade
+	- Descrever o Azure Monitor
+	
+	Assistente do Azure
+		O assistente do Azure analisa recursos implantados do Azure e faz recomendações com base nas práticas recomendadas para otimizar implementações no Azure.
+			- Confiabilidade
+			- Segurança
+			- Desempenho
+			- Custo
+			- Excelência
+	
+	Integridade do serviço do Azure
+		A integridade do serviço do azure é uma coleção de serviços que mantêm você informado sobre o status geral do Azure, status de serviços que podem afetar você e o status de recurso especifico que está afetando você.
+	Status do Azure: Visão global da integridade de todos os serviços do Azure em todas as regiões do Azure.
+		* Integridade do serviço: Exibição focada apenas nos serviços e regiões que você está usando. Se um serviço estiver enfrentando um problema em região que você não está usando, ele não aparecerá aqui.
+		* Resource Health: Exibição personalizada dos recursos reais do Azure. Ele fornecer informações sobre a integridade de seus recursos de nuvem individuais.
+		
+		-> O Azure monitor maximiza a disponibilidade e o desempenho de aplicativos e serviços coletando, analisando e tomando decisões com base na telemetria da nuvem e de ambientes locais.
