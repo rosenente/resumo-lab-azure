@@ -44,36 +44,27 @@ Gerenciamento de custos
 	- Calculadora de custos e preços
 	- Gerenciamento de custos e marcas
 	
-É a descrição de faties que podem afetar os custos no Azure. É possível comparar e descrever a ferramenta de gerenciamento de custo
-do Azure. Também descreve a finalidade das marcas. O maior problema da nuvem atualmente é o custo elevado de implementação, então é importante saber previamente a real necessidade de implementação dos recursos em nuvem. Algum dos fatores que afetam os custos são:
+É a descrição de faties que podem afetar os custos no Azure. É possível comparar e descrever a ferramenta de gerenciamento de custo do Azure. Também descreve a finalidade das marcas. O maior problema da nuvem atualmente é o custo elevado de implementação, então é importante saber previamente a real necessidade de implementação dos recursos em nuvem. Algum dos fatores que afetam os custos são:
 	
 	1. Tipo de recurso
-		Custos são específicos do recurso, portando, o uso que um medidor rastreia e o numero de medidores associados a um
-		recurso, dependendo do tipo de recurso.
+		Custos são específicos do recurso, portando, o uso que um medidor rastreia e o numero de medidores associados a um recurso, dependendo do tipo de recurso.
 	2. Consumo
 		Com um modelo pago conforme o uso, o consumo é um dos maiores geradores de custos.
 	3. Manutenção
-		Monitorar seu volume do Azure e manter seu ambiente pode ajuda-lo a identificar a reduzir os custos que não 
-		são necessários, como ao desligar máquinas virtuais.
+		Monitorar seu volume do Azure e manter seu ambiente pode ajuda-lo a identificar a reduzir os custos que não são necessários, como ao desligar máquinas virtuais.
 	4. Áreas geográficas
 		O mesmo tipo de recurso pode custar valores dependendo da área geográfica o que afeta os custos do Azure.
 	5. Tráfego de rede
-		Embora algumas transferências de dados de entrada sejam gratuitas, o custo para dados de saída ou dados entre
-		recursos do Azure é afetados por zonas de cobrança.
+		Embora algumas transferências de dados de entrada sejam gratuitas, o custo para dados de saída ou dados entre recursos do Azure é afetados por zonas de cobrança.
 	6. Assinatura
-		O tipo e a configuração da assinatura também podem afetar o custo. Por exemplo, a avaliação gratuita permite 
-		explorar alguns recursos do Azure gratuitamente.
+		O tipo e a configuração da assinatura também podem afetar o custo. Por exemplo, a avaliação gratuita permite explorar alguns recursos do Azure gratuitamente.
 
-O Azure Marketplace permite que os clientes encontrem, experiementem, comprem e provisionem aplicativos e serviços de centenas de 
-provedores de serviços líderes, que são todos certificados para execução no Azure. Caso seja instalado um recurso não Microsoft, 
-a Microsoft não irá prover suporte, do qual o suporte deverá ser cobrado da empresa fabricante do software. 
+O Azure Marketplace permite que os clientes encontrem, experiementem, comprem e provisionem aplicativos e serviços de centenas de provedores de serviços líderes, que são todos certificados para execução no Azure. Caso seja instalado um recurso não Microsoft, a Microsoft não irá prover suporte, do qual o suporte deverá ser cobrado da empresa fabricante do software. 
 
 
 Calculadora de preços do Azure
 
-	Quando você precisa de uma simulação de um projeto para prever o custo de um recurso no Azure, o local indicado é a 
-	calculadora de preços do Azure. É uma ferramenta que ajuda a estumar o custo dos produtos do Azure. As opções que você pode
-	configurar na calculadora de preços entre os produtos, mas as opções básicas de configurações.
+	Quando você precisa de uma simulação de um projeto para prever o custo de um recurso no Azure, o local indicado é a calculadora de preços do Azure. É uma ferramenta que ajuda a estumar o custo dos produtos do Azure. As opções que você pode configurar na calculadora de preços entre os produtos, mas as opções básicas de configurações.
 		* Região
 		* Camada
 		* Opção de cobranças
@@ -82,8 +73,7 @@ Calculadora de preços do Azure
 		* Preço de desenvolvimento/Teste do Azure.
 	1. Calculadora de custo total de propriedade (TCO)
 		* Uma ferramenta para estimar a economia de custos possível ao migrar para o Azure.
-		* Um relatório compara os custos das infraestruturas locais com os custos de uso de produtos e serviços do Azure for 		
-		Cloud
+		* Um relatório compara os custos das infraestruturas locais com os custos de uso de produtos e serviços do Azure for Cloud
 		* Geração de custos e cobranças.
 		* Enriquecimento de dados.
 		* Definição de orçamentos de gastos.
@@ -92,9 +82,7 @@ Calculadora de preços do Azure
 		
 Marcas (tags)
 
-	As marcas são elementos muito impostantes mas que não são obrigatórias e nem herdáveis para subconjuntos. Fornecem metadados 
-	aos recursos do Azure. Organizam os recursos em uma taxonomia de maneira lógica. Consistem em um par nome-valor. Elas são 
-	úteis par reunir informações de cobrança.
+	As marcas são elementos muito impostantes mas que não são obrigatórias e nem herdáveis para subconjuntos. Fornecem metadados aos recursos do Azure. Organizam os recursos em uma taxonomia de maneira lógica. Consistem em um par nome-valor. Elas são úteis par reunir informações de cobrança.
 	
 
 Laboratório de Custos
@@ -110,28 +98,58 @@ Governaça e Conformidade
 		- Portal de confiança do serviço
 		
 	Azure Policy
-		O Azure Polyce ajuda a impor padrões organizacionais e a avaliar a conformidade em escala. Ele fornece governança e 
-		consistência de recursos com conformidade regulatória, segurança, custo e gerenciamento. Com ele, é possível aplicar
-		a regra independente de quem queira realizar a criação de um recurso, sendo owner ou não.
+		O Azure Polyce ajuda a impor padrões organizacionais e a avaliar a conformidade em escala. Ele fornece governança e consistência de recursos com conformidade regulatória, segurança, custo e gerenciamento. Com ele, é possível aplicar a regra independente de quem queira realizar a criação de um recurso, sendo owner ou não.
 		
 		- Avalia e identifica os recursos do azure que não atendam as suas politicas
-		- Fornecem definições de politicas e iniciativas integradas, em categorias como armazenamento, rede, computação, 
-		central de segurança e monitoramento.
+		- Fornecem definições de politicas e iniciativas integradas, em categorias como armazenamento, rede, computação, central de segurança e monitoramento.
 		
 	Bloqueios de recurso
 		- Proteja os recursos do Azure de exclusão ou modificação acidental;
 		- Gerenciar bloqueios na assinatura, grupos de recursos ou níveis de recursos individuais do portal do Azure.
 	
 	Portal de confiança do serviço
-		Onde poderá ser possível encontrar todas as informações quanto a regras e leis de empresas de governos. Nada mais é 
-		que um link onde poderá ser consultado vários cenários de auditorias de empresas na área de Cloud.
+		Onde poderá ser possível encontrar todas as informações quanto a regras e leis de empresas de governos. Nada mais é que um link onde poderá ser consultado vários cenários de auditorias de empresas na área de Cloud.
 		
 	Microsoft Purview
-		Aplicação que é da família de soluções de governança, risco e conformidade de dados que ajuda a obter uma única 
-		exibição unificada em seus dados. Reúne insights sobre seus dados locais, multinuvens e de software como serviço. 
+		Aplicação que é da família de soluções de governança, risco e conformidade de dados que ajuda a obter uma única exibição unificada em seus dados. Reúne insights sobre seus dados locais, multinuvens e de software como serviço. 
 			- Descoberta de dados automatizada
 			- Classificação de dados confidenciais
 			- Linhagem de dados de ponta a ponta
 
 Pagina para verificação de regras e documentação regulamentatória
 	https://servicetrust.microsoft.com/
+
+
+Ferramentas de implementação de recursos
+	* Portal, Powershell, CLI e outras;
+	* Azure ARC e Azure Resource Manager
+	
+	Domínio de objetivo
+		* Descrever o portal do Azure ARC
+		* Descrever o ARM (Azure Resource Manager)
+		
+	Ferramentas para interagir com o Azure
+		- Portal do Azure
+		- Azure PowerShell
+		- Azure Cloud Shell
+		- Interface de linha de comando (CLI)
+		
+	Azure ARC
+		- Ferramentas de multicloud - Faz gerenciamento de nuvens externas 
+		O ARM fornece uma camada de gerenciamento que permite criar, atualizar e excluir na assinatura do Azure.
+		
+		Infraestrutua com código
+			- Garanta consistência na implantação em todo o ecossistema de nuvem
+			- Gerencie a configuração em escala
+			- Provisione rapidamente ambientes adicionais com base em uma configuração e um build padrão.
+		Modelos do ARM
+			Modelos do ARM são arquivos JSON que podem ser usados para criar e implementar a infraestrutura do azure sem a necessidade de escrever comandos de programação.
+				- Sintaxe declarativa
+				- Resultados repetíveis
+				- Orquestração
+				- Arquivos modulares
+				- Validação integrada
+				- Código exportável
+				
+		BICEP
+			Modelo de linguagem que podemos automatizar os processos dentro do ARC. É compatível apenas com o ambiente de nuvem apenas para o Azure, sendo uma linguagem mais amigável para a linguagem humana e também mais fácil assimilação para iniciantes.
